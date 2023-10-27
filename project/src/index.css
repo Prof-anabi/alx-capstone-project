@@ -9,10 +9,12 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 :root {
   --bg-color: #fdfdfd;
+  --hbg-color: #fdfdbc;
   --sbg-color: #f4f4f6;
   --cbg-color: #f4f4f6;
   --text-color: #333;
@@ -21,7 +23,8 @@
   --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
-.dark-mode {
+[data-theme="dark"] {
+  --hbg-color: #0b061f;
   --main-color: #754ef9;
   --bg-color: #0b061f;
   --sbg-color: #0b061f;
@@ -40,6 +43,7 @@ body {
   color: var(--text-color);
   box-sizing: border-box;
   overflow-x: hidden;
+  transition: all .3s ease-in-out;
 }
 
 span {

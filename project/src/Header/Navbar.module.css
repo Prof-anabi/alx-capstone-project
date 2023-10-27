@@ -26,7 +26,7 @@
     align-items: center;
     z-index: 100;
     transition: .5s;
-    background: var(--white-color);
+    background: var(--bg-color);
 }
 
 nav {
@@ -43,6 +43,24 @@ nav {
     cursor: pointer;
     margin-right: auto;
     text-decoration: none;
+}
+
+.TitleDark {
+    font-size: 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: auto;
+    text-decoration: none;
+    color: rgb(237, 237, 151);
+    text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 31px #fff,
+        0 0 55px rgb(255, 226, 4),
+        0 0 91px rgb(255, 226, 4),
+        0 0 100px rgb(255, 226, 4),
+        0 0 122px rgb(255, 226, 4),
+        0 0 140px rgb(255, 226, 4);
 }
 
 nav ul {
@@ -70,6 +88,13 @@ nav ul li a:not(.active):hover {
     
 }
 
+.ModeIcon {
+    font-size: 2rem;
+    margin: 0 2rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
 .Menu {
     font-size: 3.6rem;
     color: var(--text-color);
@@ -81,6 +106,22 @@ nav ul li a:not(.active):hover {
 @media (max-width: 768px) {
     .Menu {
         display: block;
+    }
+
+    .ModeIcon {
+        position: absolute;
+        right: 10rem;
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: .1rem;
+    }
+
+    .Title {
+        font-size: 2rem;
+    }
+
+    .TitleDark {
+        font-size: 2rem;
     }
 
     .Navbar {
@@ -132,7 +173,16 @@ nav ul li a:not(.active):hover {
         font-size: 2rem;
     }
 
+    .TitleDark {
+        font-size: 1.8rem;
+    }
+
     .Menu {
         font-size: 2.5rem;
+    }
+
+    .ModeIcon {
+        right: 5.5rem;
+        font-size: 2rem;
     }
 }

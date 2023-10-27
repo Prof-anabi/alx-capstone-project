@@ -10,7 +10,7 @@ import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Homepage from './Homepage';
-//import { Nav } from './Nav';
+
 
 class App extends Component {
   state = {
@@ -23,6 +23,7 @@ class App extends Component {
         
         <Router>
         <Navbar />
+        
             <Routes>
                 <Route path='/' element={<Homepage />} />
                 <Route path='/about' element={<About />} />

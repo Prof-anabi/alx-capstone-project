@@ -1,20 +1,21 @@
 .Home {
     display: flex;
     align-items: center;
-    background-color: #f5f5dc;
+    background-color: var(--hbg-color);
     height: 100vh;
-    
 }
 
 .HomeContent {
     width: 50%;
     padding-left: 3rem;
+    text-shadow: .2rem .2rem var(--shadow-color);
 }
 
 .HomeContent h3 {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: .3;
+    text-shadow: .2rem .2rem var(--shadow-color);
 }
 
 .HomeContent h1 {
@@ -29,6 +30,7 @@
     font-weight: 600;
     text-align: justify;
     width: 80%;
+    text-shadow: .2rem .2rem var(--shadow-color);
 }
 
 .SocialMedia a{
@@ -147,6 +149,7 @@
 
     .ProfessionContainer h1 {
         margin: 0 auto;
+        text-shadow: .2rem .2rem var(--shadow-color);
     }
 }
 
