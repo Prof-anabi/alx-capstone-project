@@ -16,16 +16,14 @@ const Projects = (props) => {
                     <a href={item.link}><i className={item.linkIcon}></i></a>
                 </div>
             </div>
-            
         )
-        });
+    });
     return (
         <div className={classes.Portfolio} >
             <h2>Latest <span>Projects</span></h2>
 
             <div className={classes.PortfolioContainer}>
                 {PortfolioCard}
-            
             </div>
         </div>
     )

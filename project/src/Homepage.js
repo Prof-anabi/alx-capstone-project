@@ -8,7 +8,6 @@ import Contact from './Contact/Contact';
 import Data from './Data'; 
 import './App.css'
 
-
 class Homepage extends Component {
   state = {
     data: Data
@@ -26,10 +25,7 @@ class Homepage extends Component {
         <Contact />
         
       </div>
-      
-  
     );
-
   }
 }
 

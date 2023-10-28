@@ -12,7 +12,7 @@ const Navbar = () => {
     //Sticky Navbar on Scroll
     const [color, setColor] = useState(false)
     const changeColor = () => {
-        if(window.scrollY >= 90) {
+        if(window.scrollY >= 30) {
             setColor(true)
         }else {
             setColor(false)
@@ -51,28 +51,16 @@ const Navbar = () => {
             <Link className={darktheme ? classes.Title : classes.TitleDark} to="/"><code>&#60;</code>anabi-asah/<code>&#62;</code></Link>
             <nav className={menuOpen ? classes.Navbar : classes.NavbarOpen} onClick={() => {setMenuOpen(!menuOpen)}}>
                 <ul className={menuOpen ? classes.Open : ""}>
-                    <li>
-                        <NavLink to="/about">About</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/services">Services</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/projects">Projects</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/testimonials">Testimonials</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/contact">Contact</NavLink>
-                    </li>
+                    <li><NavLink to="/about">About</NavLink></li>
+                    <li><NavLink to="/services">Services</NavLink></li>
+                    <li><NavLink to="/projects">Projects</NavLink></li>
+                    <li> <NavLink to="/testimonials">Testimonials</NavLink></li>
+                    <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
-                
             </nav>
             <div className={[classes.ModeIcon, darktheme ? DarkModeIcon : LightModeIcon].join(' ')} onClick={() => {setDarkTheme(!darktheme); toggleTheme()}} defaultChecked={selectedTheme === "light"}></div>
             <div  className={[`${MenuIcon}`, classes.Menu].join(' ')}  onClick={() => {setMenuOpen(!menuOpen)}}></div>
         </header>
-        
     )
 }
 

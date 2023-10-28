@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './Header/Navbar'
 import Data from './Data';
+import Homepage from './Homepage';
 import About from './About/About';
 import Services from './Services/Services';
 import Portfolio from './Portfolio/Porfolio';
 import Testimonial from './Testimonial/Testimonial';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Homepage from './Homepage';
 
 
 class App extends Component {
@@ -20,10 +19,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        
         <Router>
-        <Navbar />
-        
+            <Navbar />
             <Routes>
                 <Route path='/' element={<Homepage />} />
                 <Route path='/about' element={<About />} />
@@ -36,10 +33,8 @@ class App extends Component {
         <Footer />
       </div>
     );
-    
-  }
-
-  }
+  };
+};
 
 
 export default App;

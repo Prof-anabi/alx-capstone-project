@@ -13,18 +13,16 @@ const Services = (props) => {
                 <a href={item.link} className={classes.Btn}>{item.buttonValue}</a>
             </div>
         )
-        });
-
-
+    });
 
     return (
         <div className={classes.Services}>
-        <h2>My <span>Services</span></h2>
+            <h2>My <span>Services</span></h2>
 
-        <div className={classes.ServicesContainer}>
-           {ServicesCard}
+            <div className={classes.ServicesContainer}>
+            {ServicesCard}
+            </div>
         </div>
-    </div>
     )
 }
 
