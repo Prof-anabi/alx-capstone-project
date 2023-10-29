@@ -58,7 +58,7 @@
     border-color: var(--main-color);
 }
 
-/* @media (max-width: 990px) {
+@media (max-width: 990px) {
     .Contact {
         height: 100vh;
     }
@@ -77,4 +77,4 @@
     .InputBox input {
         width: 100%;
     }
-} */
+}
