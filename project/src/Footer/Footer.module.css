@@ -36,7 +36,7 @@
     color: #333;
 }
 
-/* @media (max-width: 450px) {
+@media (max-width: 450px) {
     .Footer {
         flex-direction: column-reverse;
     }
@@ -54,4 +54,4 @@
     .FooterIconTop a i {
         font-size: 2rem;
     }
-} */
+}
