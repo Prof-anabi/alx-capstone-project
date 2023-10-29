@@ -52,7 +52,7 @@
     border-color: var(--main-color);
 }
 
-/* @media (max-width: 990px) {
+@media (max-width: 990px) {
     .About {
         height: auto;
     }
@@ -98,4 +98,4 @@
         padding-inline: 0;
         
     }
-} */
+}
