@@ -101,7 +101,7 @@
     width: 100%;
     pointer-events: none;
 }
-/* 
+
 @media (max-width: 768px) {
     .Home {
         padding: 10rem 3% 10rem;
@@ -185,4 +185,4 @@
     .ProfessionContainer {
         top: 82%;
     }
-} */
+}
