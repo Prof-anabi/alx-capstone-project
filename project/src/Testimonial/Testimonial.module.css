@@ -58,11 +58,11 @@
 }
 
 
-/* @media (max-width: 450px) {
+@media (max-width: 450px) {
     .TestimonialWrapper {
         padding: .5rem;
     }
     .TestimonialSlide {
         padding: 3rem 1rem;
     }
-} */
+}
