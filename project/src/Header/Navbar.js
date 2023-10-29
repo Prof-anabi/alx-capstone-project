@@ -24,27 +24,27 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
 
     //DarkMode - LightMode Toggle
-    const [darktheme, setDarkTheme] = useState(false)
-    const setDarkMode = () => {
-        document.querySelector('body').setAttribute('data-theme', 'dark');
-        localStorage.setItem("selectedTheme", 'dark');
+    // const [darktheme, setDarkTheme] = useState(false)
+    // const setDarkMode = () => {
+    //     document.querySelector('body').setAttribute('data-theme', 'dark');
+    //     localStorage.setItem("selectedTheme", 'dark');
 
-    }
-    const setLightMode = () => {
-        document.querySelector('body').setAttribute('data-theme', 'light')
-        localStorage.setItem("selectedTheme", 'light');
-    }
+    // }
+    // const setLightMode = () => {
+    //     document.querySelector('body').setAttribute('data-theme', 'light')
+    //     localStorage.setItem("selectedTheme", 'light');
+    // }
 
-    const selectedTheme = localStorage.getItem('selectedTheme');
+    // const selectedTheme = localStorage.getItem('selectedTheme');
 
-    if (selectedTheme === 'dark') {
-        setDarkMode();
-    }
+    // if (selectedTheme === 'dark') {
+    //     setDarkMode();
+    // }
 
-    const toggleTheme = () => {
-        if(darktheme) setDarkMode();
-        else setLightMode();
-    }
+    // const toggleTheme = () => {
+    //     if(darktheme) setDarkMode();
+    //     else setLightMode();
+    // }
     
     return (
         <header className={color ? classes.HeaderBg : classes.Header}>
