@@ -74,7 +74,7 @@
     border-color: var(--main-color);
 }
 
-/* @media (max-width: 450px) {
+@media (max-width: 450px) {
 
     .Services {
         padding: 2rem;
@@ -82,4 +82,4 @@
     .ServicesBox {
         padding: 1rem 2rem 2rem;
     }
-} */
+}
