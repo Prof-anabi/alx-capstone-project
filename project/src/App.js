@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './Header/Navbar'
-import Data from './Data';
-import Homepage from './Homepage';
+import Data from './Utils/Data';
+
+//Pages
+import Homepage from './Home/Homepage';
 import About from './About/About';
 import Services from './Services/Services';
 import Portfolio from './Portfolio/Porfolio';

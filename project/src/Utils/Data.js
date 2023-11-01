@@ -1,12 +1,12 @@
-import Image1p from './Assets/pp-1.jpg';
-import Image2p from './Assets/pp-2.png';
-import Image3p from './Assets/pp-3.jpg';
-import Image4p from './Assets/pp-4.jpg';
-import Image5p from './Assets/pp-5.jpg';
-import Image6p from './Assets/pp-6.jpg';
-import Image1t from './Assets/tt1.jpg';
-import Image2t from './Assets/tt2.jpg';
-import Image3t from './Assets/tt3.jpg';
+import Image1p from '../Assets/pp-1.jpg';
+import Image2p from '../Assets/pp-2.png';
+import Image3p from '../Assets/pp-3.jpg';
+import Image4p from '../Assets/pp-4.jpg';
+import Image5p from '../Assets/pp-5.jpg';
+import Image6p from '../Assets/pp-6.jpg';
+import Image1t from '../Assets/tt1.jpg';
+import Image2t from '../Assets/tt2.jpg';
+import Image3t from '../Assets/tt3.jpg';
 
 
 const Data = {
